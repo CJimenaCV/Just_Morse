@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "88488FDD-C04F-4CCF-AD05-664E7BBCFA85"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E652C735-FB51-4899-B48F-70175C0044FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Just_Morse/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "Menu"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "E652C735-FB51-4899-B48F-70175C0044FC - 44e4d3083508e233"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Just_Morse.Menu.init() -&gt; Just_Morse.Menu"
+                  moduleName = "Just_Morse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jimenadeceballosviadero/Desktop/Just_Morse/Just_Morse/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "E652C735-FB51-4899-B48F-70175C0044FC - 4b23c50ce450a08b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Just_Morse.Menu.indexStringFlash : Swift.Int"
+                  moduleName = "Just_Morse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jimenadeceballosviadero/Desktop/Just_Morse/Just_Morse/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E652C735-FB51-4899-B48F-70175C0044FC - 8342913e36e28b05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Just_Morse.Menu.init(focusedField: SwiftUI.FocusState&lt;Swift.Optional&lt;Just_Morse.Menu.Fields&gt;&gt;) -&gt; Just_Morse.Menu"
+                  moduleName = "Just_Morse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jimenadeceballosviadero/Desktop/Just_Morse/Just_Morse/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

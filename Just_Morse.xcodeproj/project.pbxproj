@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DE96B9F28DDF0D20073295E /* Just_MorseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE96B9E28DDF0D20073295E /* Just_MorseApp.swift */; };
+		4DE96BA128DDF0D20073295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE96BA028DDF0D20073295E /* ContentView.swift */; };
+		4DE96BA328DDF0D30073295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE96BA228DDF0D30073295E /* Assets.xcassets */; };
+		4DE96BA628DDF0D30073295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE96BA528DDF0D30073295E /* Preview Assets.xcassets */; };
+		4DE96BB328DDF70F0073295E /* Little_MorseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE96BB228DDF70F0073295E /* Little_MorseApp.swift */; };
+		4DE96BB528DDF70F0073295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE96BB428DDF70F0073295E /* ContentView.swift */; };
+		4DE96BB728DDF7110073295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE96BB628DDF7110073295E /* Assets.xcassets */; };
+		4DE96BBA28DDF7110073295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE96BB928DDF7110073295E /* Preview Assets.xcassets */; };
+		4DE96BBD28DDF7110073295E /* Little_Morse Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DE96BB028DDF70F0073295E /* Little_Morse Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DF69F2328E1F4B100357B72 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF69F2228E1F4B100357B72 /* KeyboardViewController.swift */; };
+		4DF69F2728E1F4B100357B72 /* Morse.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4DF69F2028E1F4B100357B72 /* Morse.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DE96BBB28DDF7110073295E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE96B9328DDF0D20073295E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DE96BAF28DDF70F0073295E;
+			remoteInfo = "Little_Morse Watch App";
+		};
+		4DF69F2528E1F4B100357B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DE96B9328DDF0D20073295E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF69F1F28E1F4B100357B72;
+			remoteInfo = Morse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DE96BC128DDF7110073295E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DE96BBD28DDF7110073295E /* Little_Morse Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF69F2828E1F4B100357B72 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DF69F2728E1F4B100357B72 /* Morse.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DE96B9B28DDF0D20073295E /* Just_Morse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Just_Morse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE96B9E28DDF0D20073295E /* Just_MorseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_MorseApp.swift; sourceTree = "<group>"; };
+		4DE96BA028DDF0D20073295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DE96BA228DDF0D30073295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE96BA528DDF0D30073295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DE96BB028DDF70F0073295E /* Little_Morse Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little_Morse Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE96BB228DDF70F0073295E /* Little_MorseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_MorseApp.swift; sourceTree = "<group>"; };
+		4DE96BB428DDF70F0073295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DE96BB628DDF7110073295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE96BB928DDF7110073295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DECE81C28E8871300CC6626 /* Little-Morse-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Little-Morse-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4DF69F2028E1F4B100357B72 /* Morse.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Morse.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF69F2228E1F4B100357B72 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		4DF69F2428E1F4B100357B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE96B9828DDF0D20073295E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE96BAD28DDF70F0073295E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF69F1D28E1F4B100357B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE96B9228DDF0D20073295E = {
+			isa = PBXGroup;
+			children = (
+				4DE96B9D28DDF0D20073295E /* Just_Morse */,
+				4DE96BB128DDF70F0073295E /* Little_Morse Watch App */,
+				4DF69F2128E1F4B100357B72 /* Morse */,
+				4DE96B9C28DDF0D20073295E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE96B9C28DDF0D20073295E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE96B9B28DDF0D20073295E /* Just_Morse.app */,
+				4DE96BB028DDF70F0073295E /* Little_Morse Watch App.app */,
+				4DF69F2028E1F4B100357B72 /* Morse.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE96B9D28DDF0D20073295E /* Just_Morse */ = {
+			isa = PBXGroup;
+			children = (
+				4DE96B9E28DDF0D20073295E /* Just_MorseApp.swift */,
+				4DE96BA028DDF0D20073295E /* ContentView.swift */,
+				4DE96BA228DDF0D30073295E /* Assets.xcassets */,
+				4DE96BA428DDF0D30073295E /* Preview Content */,
+			);
+			path = Just_Morse;
+			sourceTree = "<group>";
+		};
+		4DE96BA428DDF0D30073295E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DE96BA528DDF0D30073295E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DE96BB128DDF70F0073295E /* Little_Morse Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4DECE81C28E8871300CC6626 /* Little-Morse-Watch-App-Info.plist */,
+				4DE96BB228DDF70F0073295E /* Little_MorseApp.swift */,
+				4DE96BB428DDF70F0073295E /* ContentView.swift */,
+				4DE96BB628DDF7110073295E /* Assets.xcassets */,
+				4DE96BB828DDF7110073295E /* Preview Content */,
+			);
+			path = "Little_Morse Watch App";
+			sourceTree = "<group>";
+		};
+		4DE96BB828DDF7110073295E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DE96BB928DDF7110073295E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DF69F2128E1F4B100357B72 /* Morse */ = {
+			isa = PBXGroup;
+			children = (
+				4DF69F2228E1F4B100357B72 /* KeyboardViewController.swift */,
+				4DF69F2428E1F4B100357B72 /* Info.plist */,
+			);
+			path = Morse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE96B9A28DDF0D20073295E /* Just_Morse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE96BA928DDF0D30073295E /* Build configuration list for PBXNativeTarget "Just_Morse" */;
+			buildPhases = (
+				4DE96B9728DDF0D20073295E /* Sources */,
+				4DE96B9828DDF0D20073295E /* Frameworks */,
+				4DE96B9928DDF0D20073295E /* Resources */,
+				4DE96BC128DDF7110073295E /* Embed Watch Content */,
+				4DF69F2828E1F4B100357B72 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DE96BBC28DDF7110073295E /* PBXTargetDependency */,
+				4DF69F2628E1F4B100357B72 /* PBXTargetDependency */,
+			);
+			name = Just_Morse;
+			productName = Just_Morse;
+			productReference = 4DE96B9B28DDF0D20073295E /* Just_Morse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DE96BAF28DDF70F0073295E /* Little_Morse Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE96BBE28DDF7110073295E /* Build configuration list for PBXNativeTarget "Little_Morse Watch App" */;
+			buildPhases = (
+				4DE96BAC28DDF70F0073295E /* Sources */,
+				4DE96BAD28DDF70F0073295E /* Frameworks */,
+				4DE96BAE28DDF70F0073295E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Little_Morse Watch App";
+			productName = "Little_Morse Watch App";
+			productReference = 4DE96BB028DDF70F0073295E /* Little_Morse Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF69F1F28E1F4B100357B72 /* Morse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF69F2B28E1F4B100357B72 /* Build configuration list for PBXNativeTarget "Morse" */;
+			buildPhases = (
+				4DF69F1C28E1F4B100357B72 /* Sources */,
+				4DF69F1D28E1F4B100357B72 /* Frameworks */,
+				4DF69F1E28E1F4B100357B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Morse;
+			productName = Morse;
+			productReference = 4DF69F2028E1F4B100357B72 /* Morse.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE96B9328DDF0D20073295E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4DE96B9A28DDF0D20073295E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4DE96BAF28DDF70F0073295E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4DF69F1F28E1F4B100357B72 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 4DE96B9628DDF0D20073295E /* Build configuration list for PBXProject "Just_Morse" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE96B9228DDF0D20073295E;
+			productRefGroup = 4DE96B9C28DDF0D20073295E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE96B9A28DDF0D20073295E /* Just_Morse */,
+				4DE96BAF28DDF70F0073295E /* Little_Morse Watch App */,
+				4DF69F1F28E1F4B100357B72 /* Morse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE96B9928DDF0D20073295E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE96BA628DDF0D30073295E /* Preview Assets.xcassets in Resources */,
+				4DE96BA328DDF0D30073295E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE96BAE28DDF70F0073295E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE96BBA28DDF7110073295E /* Preview Assets.xcassets in Resources */,
+				4DE96BB728DDF7110073295E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF69F1E28E1F4B100357B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE96B9728DDF0D20073295E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE96BA128DDF0D20073295E /* ContentView.swift in Sources */,
+				4DE96B9F28DDF0D20073295E /* Just_MorseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE96BAC28DDF70F0073295E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE96BB528DDF70F0073295E /* ContentView.swift in Sources */,
+				4DE96BB328DDF70F0073295E /* Little_MorseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF69F1C28E1F4B100357B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF69F2328E1F4B100357B72 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DE96BBC28DDF7110073295E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DE96BAF28DDF70F0073295E /* Little_Morse Watch App */;
+			targetProxy = 4DE96BBB28DDF7110073295E /* PBXContainerItemProxy */;
+		};
+		4DF69F2628E1F4B100357B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF69F1F28E1F4B100357B72 /* Morse */;
+			targetProxy = 4DF69F2528E1F4B100357B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DE96BA728DDF0D30073295E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DE96BA828DDF0D30073295E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE96BAA28DDF0D30073295E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Just_Morse/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Just Morse";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE96BAB28DDF0D30073295E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Just_Morse/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Just Morse";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DE96BBF28DDF7110073295E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Little_Morse Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Morse-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Little_Morse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "GamesToKillTime.Just-Morse";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4DE96BC028DDF7110073295E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Little_Morse Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Morse-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Little_Morse;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "GamesToKillTime.Just-Morse";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		4DF69F2928E1F4B100357B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Morse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Morse;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse.Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF69F2A28E1F4B100357B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y2G6C6PAYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Morse/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Morse;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "GamesToKillTime.Just-Morse.Morse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE96B9628DDF0D20073295E /* Build configuration list for PBXProject "Just_Morse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE96BA728DDF0D30073295E /* Debug */,
+				4DE96BA828DDF0D30073295E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE96BA928DDF0D30073295E /* Build configuration list for PBXNativeTarget "Just_Morse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE96BAA28DDF0D30073295E /* Debug */,
+				4DE96BAB28DDF0D30073295E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE96BBE28DDF7110073295E /* Build configuration list for PBXNativeTarget "Little_Morse Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE96BBF28DDF7110073295E /* Debug */,
+				4DE96BC028DDF7110073295E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF69F2B28E1F4B100357B72 /* Build configuration list for PBXNativeTarget "Morse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF69F2928E1F4B100357B72 /* Debug */,
+				4DF69F2A28E1F4B100357B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DE96B9328DDF0D20073295E /* Project object */;
+}
